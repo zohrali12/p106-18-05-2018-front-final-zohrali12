@@ -1,0 +1,17 @@
+#navbar {
+    height: 70px;
+    background: lighten($mainColor,50%);
+   
+
+    .container {
+        padding: 0px !important;
+
+        .nav-fixed {
+            left: 0px;
+            text-align: center;
+            position: fixed !important;
+            transition: 1s ease;
+            text-align:center;
+        }
+    }
+}

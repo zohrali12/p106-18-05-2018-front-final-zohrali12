@@ -1,0 +1,9 @@
+.sectionPadding{
+    padding:40px 0px;
+}
+
+section{
+    >.container{
+        @extend .sectionPadding;
+    }
+}
