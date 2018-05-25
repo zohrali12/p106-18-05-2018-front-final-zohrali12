@@ -1,0 +1,1203 @@
+@import 'variables';
+
+#header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: $mainColor;
+    color: white;
+    font-size: 14px;
+    i{
+        border: 1px solid rgb(85, 208, 181);
+        padding: 10px 12px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        transition: all .3s linear;
+        &:hover{
+            color: $secondaryColor;
+        }
+    }
+    .head_contact{
+       height: 45px;
+       padding: 0 -15px;
+       padding-top: 6px;
+    }
+    .head_login{
+        height: 45px;
+        padding: 0 -15px;
+        padding-top: 6px;
+       // border: 1px solid red;
+        text-align: center;
+        background: darken($mainColor,10);
+        i{
+            border: none;
+        }
+    }
+}
+#web_navbar{
+   
+    background:white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    a{
+        color:black;
+    }
+    .logo{
+        height: 77px;
+
+    }
+    .navbar{
+        height: 77px;
+        text-align: right;
+       
+        .nav-content{
+            border: 2px solid transparent;
+            transition: all .3s ease;
+            padding: 0 !important;
+            &:hover{
+                border: 2px solid $mainColor; 
+                border-radius: 50px;
+                .dropdown-menu{
+                    display: block;
+                    border-top: $mainColor !important;
+                    .dropdown-item{
+
+                        &:hover{
+                            background:$secondaryColor;
+                            color: white;
+                        }
+                        
+                    }
+                }
+            }
+            a{
+                padding: 5px !important;
+            }
+           
+        }
+        
+    }
+}
+#mobile_nav{
+    position: sticky;
+    top: 0;
+    background:white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+    span{
+        color: $mainColor;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .navbar{
+        padding-top: 5px;
+        .btn_menu{
+            font-size: 25px;
+            color: $mainColor;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+        }
+        
+    }
+
+}
+#sideBar{
+    width: 50%;
+    height: 600px;
+    display: block;
+    transition: all 1s ease;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: -400px;
+    overflow-y: scroll;
+    .card-header{
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all .3s linear; 
+        &:hover{
+            background: $mainColor;
+            color: white;
+            a{
+                color: white;
+            }
+            .menu_item{
+                color: white !important;
+            }
+        }
+       
+        .expandSign{
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 20px;
+            transition: all .3s linear;
+            transform-origin: 50% 50%;
+        }
+    }
+   
+    .card{
+        .list-group-item{
+            background: #2a2727;
+            height: 50px;
+            transition: all .3s linear;
+            cursor: pointer;
+            &:hover{
+                background: red;   
+            }
+            a{
+                font-weight: bold;
+                color: white;
+            }
+            
+        }
+    }
+   
+   
+    
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    h4{
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+        line-height: 5px;
+    }
+    span{
+        color: $mainColor;
+    }
+    
+}
+#slider{
+    margin: 10px;
+    #carousel{
+        overflow: hidden ;
+    }
+    .caps{
+        color: black;
+        margin-left: -130px;
+        .medSer{
+            width: 100%;
+            height: 100px;
+            
+            .medical{
+                background: white;
+                color: $mainColor;
+                padding: 10px ;
+                display: inline-block;
+                font-weight: bold;
+                font-size: 36px;
+            }
+            .services{
+                background: $mainColor;
+                color: white;
+                padding: 10px;
+                display: inline-block;
+                font-weight: bold;
+                font-size: 36px;
+            }
+
+        }
+        button{
+            width: 165px;
+            height: 50px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all .5s ease;
+        }
+        .readmore{
+            background: $mainColor;
+            color: white;
+            border:none;
+            &:hover{
+                background: transparent;
+                color: black;
+                border: 2px solid $mainColor;
+            }
+        }
+        .purchase{
+            background: transparent;
+            color: black;
+            border: 2px solid $mainColor;
+            &:hover{
+                background: $mainColor;
+                color: white;
+                border:none;
+            }
+        }
+    }
+    a{
+        width: 20px;
+    }
+
+    .left{ 
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+        padding: 0;
+        padding-top: 25px;
+        background: white;
+        font-size: 30px;
+        color: black ;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+
+    .right{  
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+        padding: 0;
+        padding-top: 25px;
+        background: white;
+        font-size: 30px;
+        color: black ;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+
+    
+}
+
+#care{
+    .care{
+        height: 220px;
+        border: 1px solid $mainColor;
+        overflow: hidden;
+        position: relative;
+        top: -70px;
+        padding-top: 15%;
+        text-align: center;
+        background: white;
+        margin-bottom: 20px;
+        .label{
+            background: $mainColor;
+            height: 200px;
+            width: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: -40px;
+            top: -80px;
+            padding-top: 15%;
+            margin-bottom: 10px;
+        }
+        .image{
+           // background: red;
+            height: 50px;
+            width: 50px;
+            padding: 0;
+            padding: 0 auto;
+            top: 10px;
+            left: 5px;
+            position: absolute;
+        }
+        .bg{
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            height: 100%;
+        }
+        span{
+            cursor: pointer;
+            color: $mainColor;
+            font-size: 14px;
+            font-weight: bold;
+
+        }
+        h6{
+            font-weight: bold;
+        }
+        
+        &:hover{
+            border: 1px solid $secondaryColor;
+            .label{
+                background: $secondaryColor;
+            }
+            span{
+                color: $secondaryColor; 
+            }
+        }
+
+    }
+
+}
+
+
+#about{
+
+   // border: 1px solid red;
+    .image{
+        text-align: center;
+       // border: 1px solid blue;
+        
+    }
+    .captions{
+      //  border: 1px solid yellow;
+        height: 100%;
+        padding: 10px;
+        i{
+            color: $mainColor;
+        }
+       h2, h5{
+           margin-top: 10px;
+       }
+    }
+}
+
+#appointment{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    .layer{
+        position: relative;
+        width: 100%;
+        background: #000000b5;
+        overflow: hidden;
+        padding-top: 80px;
+        padding-left: 80px;
+        .icon{
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .label{
+            background: $mainColor;
+            height: 200px;
+            width: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: -40px;
+            top: -80px;
+            padding-top: 15%;
+            margin-bottom: 10px;
+
+        }
+    }
+    .container{
+        background: url(/image/appoint_img.jpg);
+        background-size: cover;
+        padding: 0 !important;
+    }
+    .row{
+        color: white;
+        h4{
+            margin-bottom: 3%;
+        }
+        .hours{
+           // padding: 3%;
+            height: 100%;
+        //    background: aqua;
+        }
+        .book{
+            height: 100%;
+            //padding: 3%;
+            h5{
+               margin-top: 5%;
+               background: $mainColor;
+               padding-left: 10%;
+               clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%);
+            }
+        //  background: red;
+    
+        }
+    }
+}
+
+#choose{
+    width: 100%;
+    background: url(/image/choose_bg.jpg);
+    background-size: cover;
+    .sideAccordion{
+        padding-bottom:30px;
+        padding-top: 30px;
+        img{
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+        .card{
+            margin-top: 10px;
+            .accordion_items{
+                
+                cursor: pointer;
+                border: none;
+                h5{
+                    font-size: 16px;
+                }
+               .arrowSign{
+                   color: white;
+                   font-weight: bold;
+                   text-align: center;
+                   border-radius: 100%;
+                   height: 28px;
+                   width: 28px;
+                   background: $mainColor;
+                   font-size: 20px;
+                   transition: all .4s linear;
+               }
+            }
+        }
+    }
+    .slider{
+        padding-bottom:30px;
+        padding-top: 30px;
+        overflow: hidden;
+        a{
+            width: 20px;
+        }
+    
+        .left{ 
+            border-radius: 100%;
+            height: 80px;
+            width: 80px;
+            padding: 0;
+            padding-top: 25px;
+            font-size: 30px;
+            color: white ;
+            background: $mainColor;
+            &:hover {
+                background: $secondaryColor;
+            }
+        }
+    
+        .right{  
+            border-radius: 100%;
+            height: 80px;
+            width: 80px;
+            padding: 0;
+            padding-top: 25px;
+            font-size: 30px;
+            color: white ;
+            background: $mainColor;
+            &:hover {
+                background: $secondaryColor;
+            }
+        }
+
+    }
+    
+    .headings{
+        margin-top: 10px;
+    }
+
+    
+}
+#specalists{
+    padding-top: 50px;
+    #cardSlide{
+        position: relative;
+    }
+    .header{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .card{
+        position: relative;
+        overflow: hidden;
+        margin-right: 20px;
+        text-align: center;
+        &:last-child{
+            margin-right: 0px;
+        }
+        &:hover{
+            .social{
+                bottom: 0px;
+            }
+        }
+        .label{
+            background: $mainColor;
+            height: 200px;
+            width: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: -40px;
+            top: -80px;
+            padding-top: 15%;
+            margin-bottom: 10px;
+
+        }
+         .icon{
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .social{
+            position: absolute;
+            left: 0px;
+            bottom: -100px;
+            background: $mainColor;
+            height: 100px;
+            width: 100%;
+            transition: all .3s linear;
+           
+            i{
+                height: 40px;
+                width: 40px;
+                border: 1px solid white;
+                color: white;
+                font-size: 36;
+                text-align: center;
+                padding-top: 10px;
+                margin-right: 12px;
+                transition: all .5s ease;
+                &:hover{
+                    
+                    transform: rotate(360deg); 
+                }
+            }
+        }
+
+        
+    }
+  
+   ol{
+       position: absolute;
+       bottom: -70px;
+       margin-top: 300px;
+       height: 30px;
+       li{
+           height: 15px;
+           width: 15px;
+           margin-right: 10px;
+           border-radius: 100%;
+           border: 1px solid $mainColor;
+           transition: all .5s ease;
+           &:hover{
+               background: $mainColor;
+           }
+           
+       }
+
+   } 
+}
+#video{
+    background: url(../image/vedio.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    .videoLayer{
+
+        background: #000000c2;
+        height:100%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    
+    .header{
+        text-align: center;
+        h2{
+            color: white;
+            margin: 20px 0;
+        }
+    }
+    .buttons{
+        button{
+            width: 165px;
+            height: 50px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all .5s ease;
+        }
+        .purchase{
+            background: transparent;
+            color: white;
+            background: $mainColor;
+            border: 2px solid $mainColor;
+            &:hover{
+                background: transparent;
+                border: 2px solid $mainColor;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            span{
+                transition: all .5s ease;
+            }
+            &:hover{
+                span{
+                    color: $secondaryColor;
+                }
+            }
+        }
+
+    }
+    
+}
+#events{
+
+
+    margin-top: 50px;
+    position: relative;
+    .controls{
+        position: absolute;
+        height: 30px;
+        width: 70px;
+        right: 0;
+        top: 0;
+    }
+    .btn{
+        height: 30px;
+        width: 30px;
+        background: $mainColor;
+        border-radius: 100%;
+        position: absolute !important;
+    }
+    
+    
+    .header{
+        position: relative;
+        img{
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+    }
+    
+    .card{
+        position: relative;
+        margin-left: -15px;
+        border: none;
+        overflow: hidden;
+        margin-bottom: 20px;
+        h5{
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10%;
+            margin-bottom: 20px;
+        }
+       
+        .card-body{
+            background:#f8f6f6fa;
+            margin-right: 20px;
+        }
+        span{
+                margin-right: 10px;
+            i{
+                margin-right: 5px;   
+            }
+        }
+        p{
+            margin-top: 30px;
+        }
+        
+       
+    }
+    .label{
+        background: $mainColor;
+        height: 200px;
+        width: 100px;
+        transform: rotate(45deg);
+        position: absolute;
+        left: -40px;
+        top: -80px;
+        padding-top: 15%;
+        margin-bottom: 10px;
+
+    }
+     .icon{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        padding: 10px;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        i{
+            font-size: 30px;
+            color: white;
+        }
+    }
+}
+
+#statistics{
+    background-image: url(/image/counter_bg.jpg);
+    background-size: cover;
+    .layer{
+        min-height: 500px;
+        width: 100%;
+        background: #ffffffc9;
+        padding: 10px;
+    }
+    .count{
+        >div{
+            width: 200px;
+        }
+        .icon{
+            height: 100px;
+            width: 100px;
+            background: white;
+            border: 1px solid $mainColor;
+        }
+    }
+}
+
+#blog{
+    padding-top: 20px;
+    .news{
+        margin-top: 10%;
+    }
+    .header{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .image{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: all .4s linear;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        .social{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            >div{
+                background: #EDEDED;
+                height: 40px;
+                width: 60px;
+                margin-left: 10px;
+               
+                cursor: pointer;
+                i{
+                    margin-right: 10px;
+                }
+                &:hover{
+                    background: $mainColor;
+                    color: white;
+                }
+            }
+        }
+    }
+    .text{
+        padding-bottom: 10px;
+        *{
+            margin-top: 10px;
+        }
+        
+        color:rgb(139, 139, 139);
+        h5{
+            color: black;
+        }
+        span{
+            margin-top: 10px;
+            &:last-child{
+                color: $mainColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
+#review{
+    background-image: url(/image/testimonial_bg.jpg);
+    background-size: cover;
+    margin-top: 2%;
+    color: white;
+   .layer{
+        min-height: 450px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.801);
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+    .header{
+        position: relative;
+        color: white;
+        padding-top: 5%;
+        img{
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+    }
+    .controls{
+        position: absolute;
+        height: 30px;
+        width: 70px;
+        right: 0;
+        top: 0;
+    }
+    .btn{
+        height: 30px;
+        width: 30px;
+        background: $mainColor;
+        border-radius: 100%;
+        position: absolute !important;
+    }
+    .comments{
+        position: relative;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 6%;
+        padding-top: 50px;
+        padding-left: 50px;
+
+        .label{
+            background: $mainColor;
+            height: 200px;
+            width: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: -40px;
+            top: -80px;
+            padding-top: 15%;
+            margin-bottom: 10px;
+    
+        }
+    }
+    
+    
+
+    
+}
+#appointmentBooking{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    .header{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        img{
+            margin: 10px;
+        }
+    }
+    .booking{
+        padding: 50px 20px 20px 50px;
+        overflow: hidden;
+        position: relative;
+        background: $mainColor;
+        .label{
+            background: $secondaryColor;
+            height: 200px;
+            width: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            left: -40px;
+            top: -80px;
+            padding-top: 15%;
+            margin-bottom: 10px;
+        }
+        .icon{
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        input{
+            width: 100%;
+            height: 50px;
+            margin-top: 20px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            color: white;
+            background: transparent;
+            border: 2px solid #7bddc7;
+            transition: all .5s ease;
+            
+            &::placeholder{
+                color: #7bddc7;;
+            }
+            &:hover{
+                border: 2px solid white;
+            }
+        }
+        .message{
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .date, .time{
+            position: relative;
+            i{
+                position: absolute;
+                top: 38px;
+                right: 10px;
+                color: white;
+            }
+        }
+        button{
+            width: 165px;
+            height: 50px;
+            margin-left: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all .5s ease;
+            background: transparent;
+            color: black;
+            background: white;
+            border: 2px solid transparent;
+            &:hover{
+                background: transparent;
+                border: 2px solid white;
+            }
+        }
+    } 
+    .chat{
+        height: 500px;
+        .image{
+            width: 100%;
+            position: relative;
+            margin-top: 20px;
+            div{
+                position: absolute;
+                bottom: -12.5px;
+                height: 25px;
+                width: 25px;
+                border-radius: 100%;
+                background: $mainColor;
+                border: 4px solid white;
+            }
+        
+        }
+        .text{
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0px;
+        }
+        button{
+            width: 165px;
+            height: 50px;
+            margin-left: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all .5s ease;
+            background: transparent;
+            color: white;
+            background:$secondaryColor;
+            border: 2px solid transparent;
+            &:hover{
+                background: transparent;
+                border: 2px solid $secondaryColor;
+                color: black;
+                font-weight: bold;
+               
+            }
+        }
+    } 
+}
+#map{
+    height: 500px;
+    width: 100;
+    background: aqua;
+}
+#adds{
+    margin: 20px 0;
+}
+#enquiry{
+    width: 100%;
+    min-height: 200px;
+    background: $mainColor;
+    padding: 80px;
+    margin: 20px 0px;
+    text-align: center;
+    .statement{
+        color: white;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 165px;
+        height: 50px;
+        margin-left: 15px;
+        border-radius: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all .5s ease;
+        background: transparent;
+        color: black;
+        background: white;
+        border: 2px solid transparent;
+        &:hover{
+            background: transparent;
+            border: 2px solid white;
+        }
+    }
+}
+#footer{
+    background: black;
+    padding-top: 6%;
+    color: #757575;
+    .contact{
+        padding: 10px;
+        padding-right: 10px;
+
+        margin: 0 -15px;
+        >span{
+            color: $mainColor;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        ul{
+            margin: 10px 0;
+            li{
+                margin: 10px 0;
+                color: white;
+                display: block;
+                span{
+                    margin-left: 10px;
+                }
+            }
+            i{
+                border: 1px solid rgba(110, 110, 110, 0.568);
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                justify-content:center;
+                padding-top: 7px;
+                font-size: 0.8em;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                transition: all .3s linear;
+                margin-left: 10px;
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+       
+    }
+    .quickLinks{
+        .instagram{
+            h4{
+                margin: 20px 0;
+                color: white;
+            }
+            >img{
+                margin-bottom: 20px;
+            }
+            .galery{
+                .image{
+                    width: 100%;
+                    margin-bottom: 5px;
+                    padding-right: 5px;
+                    img{
+                        width: 100%;
+                    }
+                }
+               
+            }
+            .pad{
+                padding: 0 !important;
+            }
+        }
+        .userful{
+            h4{
+                margin: 20px 0;
+                color: white;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+            li{
+                margin-bottom: 8px ;
+                cursor: pointer;
+                i{
+                    color: $mainColor;
+                    margin-right: 5px;
+                }
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+
+
+        }
+        .hours{
+            h4{
+                margin: 20px 0;
+                color: white;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+            span{
+                color: white;
+            }
+
+        }
+    }
+    .copyRight{
+        width: 100%;
+        height: 100px;
+        border-top: 1px solid  #757575;
+        margin: 0 -15px;
+        padding: 30px 10px;
+    }
+
+}
+
+@media  (max-width: 768px) {
+    #header{
+        display: none;
+    }
+    #web_navbar{
+        display: none;
+    }
+    #mobile_nav{
+        display: block;
+    }
+    #sideBar{
+        display: block;
+    }
+
+    
+}
+@media  (max-width: 992px) {
+    #web_navbar{
+       font-size: 12px;
+    }
+    #care{
+        .care{
+            position: relative;
+            top: 0px;
+        }
+    }
+    .instagram{
+        display: none;
+    }
+    
+}
+@media  (min-width: 768px) {
+    #mobile_nav{
+        display: none;
+    }
+    #sideBar{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,1105 @@
+#header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #2EC8A6;
+  color: white;
+  font-size: 14px;
+}
+#header i {
+  border: 1px solid #55d0b5;
+  padding: 10px 12px;
+  font-size: 0.8em;
+  text-align: center;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  transition: all .3s linear;
+}
+#header a:hover {
+  color: #F4AB01;
+}
+#header .head_contact {
+  height: 45px;
+  padding: 0 -15px;
+  padding-top: 6px;
+}
+#header .head_login {
+  height: 45px;
+  padding: 0 -15px;
+  padding-top: 6px;
+  text-align: center;
+  background: #249f84;
+}
+#header .head_login i {
+  border: none;
+}
+
+#web_navbar {
+  background: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#web_navbar a {
+  color: black;
+}
+#web_navbar .logo {
+  height: 77px;
+}
+#web_navbar .navbar {
+  height: 77px;
+  text-align: right;
+}
+#web_navbar .navbar .nav-content {
+  border: 2px solid transparent;
+  transition: all .3s ease;
+  padding: 0 !important;
+}
+#web_navbar .navbar .nav-content:hover {
+  border: 2px solid #2EC8A6;
+  border-radius: 50px;
+}
+#web_navbar .navbar .nav-content:hover .dropdown-menu {
+  display: block;
+  border-top: #2EC8A6 !important;
+}
+#web_navbar .navbar .nav-content:hover .dropdown-menu .dropdown-item:hover {
+  background: #F4AB01;
+  color: white;
+}
+#web_navbar .navbar .nav-content a {
+  padding: 5px !important;
+}
+
+#mobile_nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+}
+#mobile_nav span {
+  color: #2EC8A6;
+}
+#mobile_nav a {
+  text-decoration: none;
+  color: black;
+}
+#mobile_nav .logo {
+  padding-top: 10px;
+}
+#mobile_nav .navbar {
+  padding-top: 5px;
+}
+#mobile_nav .navbar .btn_menu {
+  font-size: 25px;
+  color: #2EC8A6;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+#sideBar {
+  width: 50%;
+  height: 600px;
+  display: block;
+  transition: all 1s ease;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: -400px;
+  overflow-y: scroll;
+}
+#sideBar .card-header {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+#sideBar .card-header:hover {
+  background: #2EC8A6;
+  color: white;
+}
+#sideBar .card-header:hover a {
+  color: white;
+}
+#sideBar .card-header:hover .menu_item {
+  color: white !important;
+}
+#sideBar .card-header .expandSign {
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  transition: all .3s linear;
+  transform-origin: 50% 50%;
+}
+#sideBar .card .list-group-item {
+  background: #2a2727;
+  height: 50px;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+#sideBar .card .list-group-item:hover {
+  background: red;
+}
+#sideBar .card .list-group-item a {
+  font-weight: bold;
+  color: white;
+}
+#sideBar a {
+  text-decoration: none;
+  color: black;
+}
+#sideBar h4 {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 5px;
+}
+#sideBar span {
+  color: #2EC8A6;
+}
+
+#slider {
+  margin: 10px;
+}
+#slider #carousel {
+  overflow: hidden;
+}
+#slider .caps {
+  color: black;
+  margin-left: -130px;
+}
+#slider .caps .medSer {
+  width: 100%;
+  height: 100px;
+}
+#slider .caps .medSer .medical {
+  background: white;
+  color: #2EC8A6;
+  padding: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 36px;
+}
+#slider .caps .medSer .services {
+  background: #2EC8A6;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 36px;
+}
+#slider .caps button {
+  width: 165px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+#slider .caps .readmore {
+  background: #2EC8A6;
+  color: white;
+  border: none;
+}
+#slider .caps .readmore:hover {
+  background: transparent;
+  color: black;
+  border: 2px solid #2EC8A6;
+}
+#slider .caps .purchase {
+  background: transparent;
+  color: black;
+  border: 2px solid #2EC8A6;
+}
+#slider .caps .purchase:hover {
+  background: #2EC8A6;
+  color: white;
+  border: none;
+}
+#slider a {
+  width: 20px;
+}
+#slider .left {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  padding-top: 25px;
+  background: white;
+  font-size: 30px;
+  color: black;
+}
+#slider .left:hover {
+  color: #2EC8A6;
+}
+#slider .right {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  padding-top: 25px;
+  background: white;
+  font-size: 30px;
+  color: black;
+}
+#slider .right:hover {
+  color: #2EC8A6;
+}
+
+#care .care {
+  height: 220px;
+  border: 1px solid #2EC8A6;
+  overflow: hidden;
+  position: relative;
+  top: -70px;
+  padding-top: 15%;
+  text-align: center;
+  background: white;
+  margin-bottom: 20px;
+}
+#care .care .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#care .care .image {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  padding: 0 auto;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+}
+#care .care .bg {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+}
+#care .care span {
+  cursor: pointer;
+  color: #2EC8A6;
+  font-size: 14px;
+  font-weight: bold;
+}
+#care .care h6 {
+  font-weight: bold;
+}
+#care .care:hover {
+  border: 1px solid #F4AB01;
+}
+#care .care:hover .label {
+  background: #F4AB01;
+}
+#care .care:hover span {
+  color: #F4AB01;
+}
+
+#about .image {
+  text-align: center;
+}
+#about .captions {
+  height: 100%;
+  padding: 10px;
+}
+#about .captions i {
+  color: #2EC8A6;
+}
+#about .captions h2, #about .captions h5 {
+  margin-top: 10px;
+}
+
+#appointment {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+#appointment .layer {
+  position: relative;
+  width: 100%;
+  background: #000000b5;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+#appointment .layer .icon {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#appointment .layer .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#appointment .container {
+  background: url(/image/appoint_img.jpg);
+  background-size: cover;
+  padding: 0 !important;
+}
+#appointment .row {
+  color: white;
+}
+#appointment .row h4 {
+  margin-bottom: 3%;
+}
+#appointment .row .hours {
+  height: 100%;
+}
+#appointment .row .book {
+  height: 100%;
+}
+#appointment .row .book h5 {
+  margin-top: 5%;
+  background: #2EC8A6;
+  padding-left: 10%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%);
+}
+
+#choose {
+  width: 100%;
+  background: url(/image/choose_bg.jpg);
+  background-size: cover;
+}
+#choose .sideAccordion {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+#choose .sideAccordion img {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#choose .sideAccordion .card {
+  margin-top: 10px;
+}
+#choose .sideAccordion .card .accordion_items {
+  cursor: pointer;
+  border: none;
+}
+#choose .sideAccordion .card .accordion_items h5 {
+  font-size: 16px;
+}
+#choose .sideAccordion .card .accordion_items .arrowSign {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+  background: #2EC8A6;
+  font-size: 20px;
+  transition: all .4s linear;
+}
+#choose .slider {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+#choose .slider a {
+  width: 20px;
+}
+#choose .slider .left {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  padding-top: 25px;
+  font-size: 30px;
+  color: white;
+  background: #2EC8A6;
+}
+#choose .slider .left:hover {
+  background: #F4AB01;
+}
+#choose .slider .right {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  padding-top: 25px;
+  font-size: 30px;
+  color: white;
+  background: #2EC8A6;
+}
+#choose .slider .right:hover {
+  background: #F4AB01;
+}
+#choose .headings {
+  margin-top: 10px;
+}
+
+#specalists {
+  padding-top: 50px;
+}
+#specalists #cardSlide {
+  position: relative;
+}
+#specalists .header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#specalists .card {
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+  text-align: center;
+}
+#specalists .card:last-child {
+  margin-right: 0px;
+}
+#specalists .card:hover .social {
+  bottom: 0px;
+}
+#specalists .card .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#specalists .card .icon {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#specalists .card .social {
+  position: absolute;
+  left: 0px;
+  bottom: -100px;
+  background: #2EC8A6;
+  height: 100px;
+  width: 100%;
+  transition: all .3s linear;
+}
+#specalists .card .social i {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  color: white;
+  font-size: 36;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 12px;
+  transition: all .5s ease;
+}
+#specalists .card .social i:hover {
+  transform: rotate(360deg);
+}
+#specalists ol {
+  position: absolute;
+  bottom: -70px;
+  margin-top: 300px;
+  height: 30px;
+}
+#specalists ol li {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: 1px solid #2EC8A6;
+  transition: all .5s ease;
+}
+#specalists ol li:hover {
+  background: #2EC8A6;
+}
+
+#video {
+  background: url(../image/vedio.jpg);
+  background-size: cover;
+  margin-top: 50px;
+}
+#video .videoLayer {
+  background: #000000c2;
+  height: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+#video .header {
+  text-align: center;
+}
+#video .header h2 {
+  color: white;
+  margin: 20px 0;
+}
+#video .buttons button {
+  width: 165px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+#video .buttons .purchase {
+  background: transparent;
+  color: white;
+  background: #2EC8A6;
+  border: 2px solid #2EC8A6;
+}
+#video .buttons .purchase:hover {
+  background: transparent;
+  border: 2px solid #2EC8A6;
+}
+#video .buttons a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+#video .buttons a span {
+  transition: all .5s ease;
+}
+#video .buttons a:hover span {
+  color: #F4AB01;
+}
+
+#events {
+  margin-top: 50px;
+  position: relative;
+}
+#events .controls {
+  position: absolute;
+  height: 30px;
+  width: 70px;
+  right: 0;
+  top: 0;
+}
+#events .btn {
+  height: 30px;
+  width: 30px;
+  background: #2EC8A6;
+  border-radius: 100%;
+  position: absolute !important;
+}
+#events .header {
+  position: relative;
+}
+#events .header img {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#events .card {
+  position: relative;
+  margin-left: -15px;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#events .card h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+#events .card .card-body {
+  background: #f8f6f6fa;
+  margin-right: 20px;
+}
+#events .card span {
+  margin-right: 10px;
+}
+#events .card span i {
+  margin-right: 5px;
+}
+#events .card p {
+  margin-top: 30px;
+}
+#events .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#events .icon {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+#events .icon i {
+  font-size: 30px;
+  color: white;
+}
+
+#statistics {
+  background-image: url(/image/counter_bg.jpg);
+  background-size: cover;
+}
+#statistics .layer {
+  min-height: 500px;
+  width: 100%;
+  background: #ffffffc9;
+  padding: 10px;
+}
+#statistics .count > div {
+  width: 200px;
+}
+#statistics .count .icon {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 1px solid #2EC8A6;
+}
+
+#blog {
+  padding-top: 20px;
+}
+#blog .news {
+  margin-top: 10%;
+}
+#blog .header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#blog .image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#blog .image img {
+  width: 100%;
+  transition: all .4s linear;
+}
+#blog .image img:hover {
+  transform: scale(1.1);
+}
+#blog .image .social {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#blog .image .social > div {
+  background: #EDEDED;
+  height: 40px;
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#blog .image .social > div i {
+  margin-right: 10px;
+}
+#blog .image .social > div:hover {
+  background: #2EC8A6;
+  color: white;
+}
+#blog .text {
+  padding-bottom: 10px;
+  color: #8b8b8b;
+}
+#blog .text * {
+  margin-top: 10px;
+}
+#blog .text h5 {
+  color: black;
+}
+#blog .text span {
+  margin-top: 10px;
+}
+#blog .text span:last-child {
+  color: #2EC8A6;
+  cursor: pointer;
+}
+
+#review {
+  background-image: url(/image/testimonial_bg.jpg);
+  background-size: cover;
+  margin-top: 2%;
+  color: white;
+}
+#review .layer {
+  min-height: 450px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.801);
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+#review .header {
+  position: relative;
+  color: white;
+  padding-top: 5%;
+}
+#review .header img {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#review .controls {
+  position: absolute;
+  height: 30px;
+  width: 70px;
+  right: 0;
+  top: 0;
+}
+#review .btn {
+  height: 30px;
+  width: 30px;
+  background: #2EC8A6;
+  border-radius: 100%;
+  position: absolute !important;
+}
+#review .comments {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+#review .comments .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+
+#appointmentBooking {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+#appointmentBooking .header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#appointmentBooking .header img {
+  margin: 10px;
+}
+#appointmentBooking .booking {
+  padding: 50px 20px 20px 50px;
+  overflow: hidden;
+  position: relative;
+  background: #2EC8A6;
+}
+#appointmentBooking .booking .label {
+  background: #F4AB01;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#appointmentBooking .booking .icon {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#appointmentBooking .booking input {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background: transparent;
+  border: 2px solid #7bddc7;
+  transition: all .5s ease;
+}
+#appointmentBooking .booking input::placeholder {
+  color: #7bddc7;
+}
+#appointmentBooking .booking input:hover {
+  border: 2px solid white;
+}
+#appointmentBooking .booking .message {
+  height: 100px;
+  margin-bottom: 20px;
+}
+#appointmentBooking .booking .date, #appointmentBooking .booking .time {
+  position: relative;
+}
+#appointmentBooking .booking .date i, #appointmentBooking .booking .time i {
+  position: absolute;
+  top: 38px;
+  right: 10px;
+  color: white;
+}
+#appointmentBooking .booking button {
+  width: 165px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .5s ease;
+  background: transparent;
+  color: black;
+  background: white;
+  border: 2px solid transparent;
+}
+#appointmentBooking .booking button:hover {
+  background: transparent;
+  border: 2px solid white;
+}
+#appointmentBooking .chat {
+  height: 500px;
+}
+#appointmentBooking .chat .image {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+#appointmentBooking .chat .image div {
+  position: absolute;
+  bottom: -12.5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  background: #2EC8A6;
+  border: 4px solid white;
+}
+#appointmentBooking .chat .text {
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0px;
+}
+#appointmentBooking .chat button {
+  width: 165px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .5s ease;
+  background: transparent;
+  color: white;
+  background: #F4AB01;
+  border: 2px solid transparent;
+}
+#appointmentBooking .chat button:hover {
+  background: transparent;
+  border: 2px solid #F4AB01;
+  color: black;
+  font-weight: bold;
+}
+
+#map {
+  height: 500px;
+  width: 100;
+  background: aqua;
+}
+
+#adds {
+  margin: 20px 0;
+}
+
+#enquiry {
+  width: 100%;
+  min-height: 200px;
+  background: #2EC8A6;
+  padding: 80px;
+  margin: 20px 0px;
+  text-align: center;
+}
+#enquiry .statement {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#enquiry button {
+  width: 165px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .5s ease;
+  background: transparent;
+  color: black;
+  background: white;
+  border: 2px solid transparent;
+}
+#enquiry button:hover {
+  background: transparent;
+  border: 2px solid white;
+}
+
+#footer {
+  background: black;
+  padding-top: 6%;
+  color: #757575;
+}
+#footer .contact {
+  padding: 10px;
+  padding-right: 10px;
+  margin: 0 -15px;
+}
+#footer .contact > span {
+  color: #2EC8A6;
+  cursor: pointer;
+  margin: 10px 0;
+}
+#footer .contact ul {
+  margin: 10px 0;
+}
+#footer .contact ul li {
+  margin: 10px 0;
+  color: white;
+  display: block;
+}
+#footer .contact ul li span {
+  margin-left: 10px;
+}
+#footer .contact ul i {
+  border: 1px solid rgba(110, 110, 110, 0.568);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 7px;
+  font-size: 0.8em;
+}
+#footer .contact ul a {
+  color: white;
+  text-decoration: none;
+  transition: all .3s linear;
+  margin-left: 10px;
+}
+#footer .contact ul a:hover {
+  color: #2EC8A6;
+}
+#footer .quickLinks .instagram h4 {
+  margin: 20px 0;
+  color: white;
+}
+#footer .quickLinks .instagram > img {
+  margin-bottom: 20px;
+}
+#footer .quickLinks .instagram .galery .image {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-right: 5px;
+}
+#footer .quickLinks .instagram .galery .image img {
+  width: 100%;
+}
+#footer .quickLinks .instagram .pad {
+  padding: 0 !important;
+}
+#footer .quickLinks .userful h4 {
+  margin: 20px 0;
+  color: white;
+}
+#footer .quickLinks .userful img {
+  margin-bottom: 20px;
+}
+#footer .quickLinks .userful li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+#footer .quickLinks .userful li i {
+  color: #2EC8A6;
+  margin-right: 5px;
+}
+#footer .quickLinks .userful li:hover {
+  color: #2EC8A6;
+}
+#footer .quickLinks .hours h4 {
+  margin: 20px 0;
+  color: white;
+}
+#footer .quickLinks .hours img {
+  margin-bottom: 20px;
+}
+#footer .quickLinks .hours span {
+  color: white;
+}
+#footer .copyRight {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid  #757575;
+  margin: 0 -15px;
+  padding: 30px 10px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    display: none;
+  }
+
+  #web_navbar {
+    display: none;
+  }
+
+  #mobile_nav {
+    display: block;
+  }
+
+  #sideBar {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  #web_navbar {
+    font-size: 12px;
+  }
+
+  #care .care {
+    position: relative;
+    top: 0px;
+  }
+
+  .instagram {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #mobile_nav {
+    display: none;
+  }
+
+  #sideBar {
+    display: none;
+  }
+}
+body {
+  margin: 0;
+  font-size: 16px;
+}
