@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+    <section id="header" >
+            <div class="container">
+                <div class="row">
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 ">
+                    <div class="head_contact">
+                        <ul class="list-inline ">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <li class="list-inline-item"> <span>Address : -512/fonia,canada</span> </li>
+                            <i class="fas fa-phone"></i>
+                            <li class="list-inline-item"> <span>Call us : +61 5001444-122</span> </li>
+                            <i class="fas fa-envelope"></i>
+                            <li class="list-inline-item"><a href="">Email : dummy@example.com</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 offset-lg-0 col-md-4 offset-md-4 ">
+                    <div class="head_login">
+                        <ul class="list-inline">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <li class="list-inline-item"><a href="">Log In / Sign Up</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="web_navbar">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                      <div class=" logo" > 
+                        <img class="img-fluid" src="image/logo.png">
+                      </div>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
+                    <div class=" navbar float-right">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs|pills" id="navId">
+                          <li class="nav-item nav-content">
+                            <a href="index.html" class="nav-link active">INDEX</a>
+                          </li>
+                          <li class="nav-item nav-content">
+                              <a href="about_us.html" class="nav-link active">ABOUT US</a>
+                            </li>
+                          <li class="nav-item nav-content dropdown ">
+                                <a href="#tab1Id" class="nav-link active">SERVICES </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </li>
+                          <li class="nav-item nav-content dropdown">
+                              <a href="#tab1Id" class="nav-link active">DOCTORS </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </li>
+                          <li class="nav-item nav-content dropdown">
+                              <a href="#tab1Id" class="nav-link active ">GALLERY </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </li>
+                          <li class="nav-item nav-content dropdown">
+                              <a href="#tab1Id" class="nav-link active">BLOG </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Link 1</a>
+                                  <a class="dropdown-item" href="#">Link 2</a>
+                                  <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </li>
+                          <li class="nav-item nav-content">
+                              <a href="#tab1Id" class="nav-link active">CONTACT </a>
+                            </li>
+                          <li class=" nav-item dropdown">
+                              <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-search"></i></a>
+                              <div class="dropdown-menu dropdown-menu-right">
+                                  <a class="dropdown-item" href="#">
+                                      <div class="search-container">
+                                        <form >
+                                          <input type="text" placeholder="Search.." name="search">
+                                          <button type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                      </div>
+                                  </a>
+                              </div>
+                          </li>
+                    </div>
+                  </div>
+              </div>
+            </div>
+    </section>  
+    <section id="mobile_nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-6">
+                  <div class="logo"> <h4><a href=""> <span>LIFE</span>LINE</a></h4></div>
+              </div>
+              <div class="col-sm-6 col-6">
+                  <div class="navbar float-right">
+                      <button class="btn_menu"><i class="fas fa-align-right"></i></button>
+                      
+                  </div>
+                </div>
+            </div>
+    </section>
+    <!-- Sidebar -->
+    <div id="sideBar">
+
+    <ul class="list-group">
+        <li class="list-group-item"> <h4><span>LIFE</span>LINE</h4> <button class="close">&times;</button></li>
+    </ul>
+    <div id="accordion">
+        <div class="card">
+        <div class="card-header" id="heading1">
+            <div class="menu_item" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                Index 
+            <div class="expandSign float-right" >+</div>
+            </div>
+        </div>
+        <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordion">
+            <li class="list-group-item "><a href="">index1</a></li>
+            <li class="list-group-item "><a href="">index2</a></li>
+        </div>
+        </div>
+        <div class="card">
+        <div class="card-header" id="heading2">
+            <div class="menu_item">
+                <a href="#">About Us</a> 
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading3">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    Services
+                <div class="expandSign float-right">+</div>
+                </div>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                <li class="list-group-item "><a href="">Services</a></li>
+                <li class="list-group-item"><a href="">Events</a></li>
+                <li class="list-group-item"><a href="">Pricing</a></li>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading4">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    Doctors 
+                <div class="expandSign float-right">+</div>
+                </div>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                <li class="list-group-item "><a href="">Doctor Single</a></li>
+                <li class="list-group-item"><a href="">Our  Doctors</a></li>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading5">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Gallery 
+                <div class="expandSign float-right">+</div>
+                </div>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                <li class="list-group-item"><a href="">Gallery2</a></li>
+                <li class="list-group-item"><a href="">Gallery3</a></li>
+                <li class="list-group-item"><a href="">Gallery4</a></li>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading6">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    Blog
+                <div class="expandSign float-right">+</div>
+                </div>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+                <li class="list-group-item"><a href="">Blog Category</a></li>
+                <li class="list-group-item"><a href="">Blog Single</a></li>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading7">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                    Contact
+                <div class="expandSign float-right">+</div>
+                </div>
+            </div>
+            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
+                <li class="list-group-item"><a href="">Contact Us</a></li>
+                <li class="list-group-item"><a href="">Appointment</a></li>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="heading8">
+                <div class="menu_item">
+                    <a href="#">Log In / Sign Up</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>  
+    
+    <section id="about_layer">
+        <div class="layer d-flex align-items-center  ">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="about float-right">
+                            <h2>ABOUT US</h2>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active">about us</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+            <div class="container">
+              <div class="row ">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+                  <div class="image d-flex justify-content-center align-items-center ">
+                      <img  class="img-fluid" src="image/about_us_bg.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="captions justify-content-center align-items-center">
+                      <h2>ABOUT MEDICAL</h2>
+                      <img  class="img-fluid" src="image/line.png" alt="">
+                      <h5>SPECIALTY MEDICINE WITH COMPASSION AND CAR PROIN GRAVIDA NIBH VEL VELIT</h5>
+                      <p>Proin Gravida Nibh Vel Velit Auctor Aliquet. Aenean Sollicitudin, Aks Lorem Quis Bibendum Auctor, Nisi Elit Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Duis Sed Odio Sit Amet Nibh Vulputate..</p>
+                      <p>Aenean Sollicitudin, Lorem Quis Bibendum Auctor, Nisi Elit Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Duis Sed Odio Sit.</p>
+                      <div class="row">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" >
+                              <div class="checkBox">
+                                <i class="far fa-check-square"></i>
+                                Health Care For All Types
+                              </div>
+                            </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" >
+                              <div class="checkBox">
+                                <i class="far fa-check-square"></i>
+                                Emergency Services</div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" >
+                              <div class="checkBox">
+                                <i class="far fa-check-square"></i>
+                                Dental Care Dentist</div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" >
+                              <div class="checkBox">
+                                <i class="far fa-check-square"></i>
+                                24/7 Services</div>
+                            </div>
+                      </div>
+                      <div class="mission">
+                            <h2>OUR MISSION</h2>
+                            <img  class="img-fluid" src="image/line.png" alt="">
+                            <p>Proin Gravida Nibh Vel Velit Auctor Aliquet. Aenean Sollicitudin, Aks Lorem Quis Bibendum Auctor, Nisi Elit Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Duis Sed Odio Sit Amet Nibh Vulputate..</p>
+                            <p>Aenean Sollicitudin, Lorem Quis Bibendum Auctor, Nisi Elit Consequat Ipsum, Nec Sagittis Sem Nibh Id Elit. Duis Sed Odio Sit.</p>
+                      </div>
+                    </div>
+                </div>
+                  
+              </div>
+            </div>
+    </section>
+
+    <section id="statistics">
+            <div class="layer d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                        <div class="count d-flex align-items-center justify-content-center">
+                          <div>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                              <img  class="img-fluid" src="image/patient.png" alt="">
+                            </div>
+                            <h1 class="patientsCount">0</h1>
+                            <p>Satisfied Patients</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                        <div class="count d-flex align-items-center justify-content-center">
+                          <div>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                              <img  class="img-fluid" src="image/doctor.png" alt="">
+                            </div>
+                            <h1 class="doctorCount">0</h1>
+                            <p>Doctor's Team</p>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                          <div class="count d-flex align-items-center justify-content-center">
+                            <div>
+                              <div class="icon d-flex align-items-center justify-content-center">
+                                <img  class="img-fluid" src="image/success.png" alt="">
+                              </div>
+                              <h1 class="missionCount">0</h1>
+                              <p>Success Mission</p>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 ">
+                            <div class="count d-flex align-items-center justify-content-center">
+                              <div>
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                  <img  class="img-fluid" src="image/heart.png" alt="">
+                                </div>
+                                <h1 class="surgerieCount">0</h1>
+                                <p>Successfull Surgeries</p>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                  </div>
+            </div>
+        
+        
+    </section>
+
+    <section id="theBest">
+        
+    </section>
+        
+  <script src="script/script.js"></script>
+  <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnOB10gGAu9Wyx9fUH9aETN5j-Zhi5rTY&callback=initMap">
+    </script> -->
+
+</body>
+</html>
+
+
+
+
+

@@ -37,11 +37,10 @@
 }
 
 #web_navbar {
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 #web_navbar a {
   color: black;
@@ -167,13 +166,16 @@
 
 #slider {
   margin: 10px;
+  position: relative;
+  top: -77px;
+  z-index: 0;
 }
 #slider #carousel {
   overflow: hidden;
 }
 #slider .caps {
   color: black;
-  margin-left: -130px;
+  margin-left: -20%;
 }
 #slider .caps .medSer {
   width: 100%;
@@ -257,7 +259,7 @@
   border: 1px solid #2EC8A6;
   overflow: hidden;
   position: relative;
-  top: -70px;
+  top: -150px;
   padding-top: 15%;
   text-align: center;
   background: white;
@@ -677,6 +679,11 @@
   width: 100px;
   background: white;
   border: 1px solid #2EC8A6;
+  transition: all 0.5s ease;
+}
+#statistics .count .icon:hover {
+  cursor: pointer;
+  background: #2EC8A6;
 }
 
 #blog {
@@ -935,7 +942,7 @@
   min-height: 200px;
   background: #2EC8A6;
   padding: 80px;
-  margin: 20px 0px;
+  margin-top: 20px;
   text-align: center;
 }
 #enquiry .statement {
@@ -1075,12 +1082,29 @@
   #sideBar {
     display: block;
   }
+
+  #slider {
+    position: relative;
+    top: 50px;
+  }
+  #slider h1 {
+    font-size: 20px;
+  }
+  #slider p {
+    font-size: 14px;
+  }
+  #slider button {
+    width: 80px;
+  }
 }
 @media (max-width: 992px) {
   #web_navbar {
     font-size: 12px;
   }
 
+  #care {
+    margin-top: 60px;
+  }
   #care .care {
     position: relative;
     top: 0px;
@@ -1099,6 +1123,43 @@
     display: none;
   }
 }
+body {
+  margin: 0;
+}
+
+#about_layer {
+  position: relative;
+  position: relative;
+  top: -77px;
+  z-index: 0;
+  width: 100%;
+  background-image: url(/image/service_top_img.jpg);
+  background-size: cover;
+}
+#about_layer .layer {
+  min-height: 280px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#about_layer .layer .about {
+  margin-top: 5%;
+}
+#about_layer .layer .about ol a {
+  text-decoration: none;
+  color: black;
+}
+#about_layer .layer .about ol .active {
+  color: #2EC8A6;
+}
+
+#about .mission {
+  margin-top: 30px;
+}
+
+#theBest {
+  width: 100%;
+  height: 500px;
+}
+
 body {
   margin: 0;
   font-size: 16px;

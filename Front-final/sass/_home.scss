@@ -40,11 +40,10 @@
 }
 #web_navbar{
    
-    background:white;
+    background:rgba(255, 255, 255, 0.5);
     width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
     a{
         color:black;
     }
@@ -186,12 +185,15 @@
 }
 #slider{
     margin: 10px;
+    position: relative;
+    top: -77px;
+    z-index: 0;
     #carousel{
         overflow: hidden ;
     }
     .caps{
         color: black;
-        margin-left: -130px;
+        margin-left: -20%;
         .medSer{
             width: 100%;
             height: 100px;
@@ -283,7 +285,7 @@
         border: 1px solid $mainColor;
         overflow: hidden;
         position: relative;
-        top: -70px;
+        top: -150px;
         padding-top: 15%;
         text-align: center;
         background: white;
@@ -746,6 +748,7 @@
         padding: 10px;
     }
     .count{
+       
         >div{
             width: 200px;
         }
@@ -754,6 +757,11 @@
             width: 100px;
             background: white;
             border: 1px solid $mainColor;
+            transition: all 0.5s ease;
+            &:hover{
+                cursor: pointer;
+                background: $mainColor;
+            }
         }
     }
 }
@@ -1021,7 +1029,7 @@
     min-height: 200px;
     background: $mainColor;
     padding: 80px;
-    margin: 20px 0px;
+    margin-top: 20px ;
     text-align: center;
     .statement{
         color: white;
@@ -1175,6 +1183,23 @@
         display: block;
     }
 
+    #slider{
+        position: relative;
+        top: 50px;
+
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        button{
+            width: 80px ;
+        }
+       
+     
+    }
+
     
 }
 @media  (max-width: 992px) {
@@ -1182,6 +1207,7 @@
        font-size: 12px;
     }
     #care{
+        margin-top: 60px;
         .care{
             position: relative;
             top: 0px;
@@ -1199,5 +1225,6 @@
     #sideBar{
         display: none;
     }
+    
     
 }
