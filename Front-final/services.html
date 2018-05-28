@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+ 
+    <section id="header" >
+            <div class="container">
+                <div class="row">
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 ">
+                    <div class="head_contact">
+                        <ul class="list-inline ">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <li class="list-inline-item"> <span>Address : -512/fonia,canada</span> </li>
+                            <i class="fas fa-phone"></i>
+                            <li class="list-inline-item"> <span>Call us : +61 5001444-122</span> </li>
+                            <i class="fas fa-envelope"></i>
+                            <li class="list-inline-item"><a href="">Email : dummy@example.com</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 offset-lg-0 col-md-4 offset-md-4 ">
+                    <div class="head_login">
+                        <ul class="list-inline">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <li class="list-inline-item"><a href="">Log In / Sign Up</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="web_navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                <div class=" logo" > 
+                <img class="img-fluid" src="image/logo.png">
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
+            <div class=" navbar float-right">
+                <ul class="nav nav-tabs|pills" id="navId">
+                    <li class="nav-item nav-content">
+                    <a href="index.html" class="nav-link active">INDEX</a>
+                    </li>
+                    <li class="nav-item nav-content">
+                    <a href="about_us.html" class="nav-link active">ABOUT US</a>
+                    </li>
+                    <li class="nav-item nav-content dropdown ">
+                        <a href="#tab1Id" class="nav-link active">SERVICES </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="services.html">Services</a>
+                            <a class="dropdown-item" href="events.html">Events</a>
+                            <a class="dropdown-item" href="pricing.html">Pricing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-content dropdown">
+                        <a href="#tab1Id" class="nav-link active">DOCTORS </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="doctor_single.html">Doctor Single</a>
+                            <a class="dropdown-item" href="our_doctors.html">Our Doctors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-content dropdown">
+                        <a href="#tab1Id" class="nav-link active ">GALLERY </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Gallery2.html">Gallery 2</a>
+                            <a class="dropdown-item" href="Gallery3.html">Gallery 3</a>
+                            <a class="dropdown-item" href="Gallery4.html">Gallery 4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-content dropdown">
+                        <a href="#tab1Id" class="nav-link active">BLOG </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="blog_category.html">Blog Category</a>
+                            <a class="dropdown-item" href="blog_single.html">Blog Single</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-content dropdown">
+                        <a href="#tab1Id" class="nav-link active">CONTACT </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact_us.html">Contact Us</a>
+                            <a class="dropdown-item" href="appointment.html">Appointment</a>
+                        </div>
+                    </li>
+                    <li class=" nav-item dropdown">
+                        <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-search"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">
+                                <div class="search-container">
+                                <form >
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="mobile_nav">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-6 col-6">
+            <div class="logo"> <h4><a href=""> <span>LIFE</span>LINE</a></h4></div>
+        </div>
+        <div class="col-sm-6 col-6">
+            <div class="navbar float-right">
+                <button class="btn_menu"><i class="fas fa-align-right"></i></button>
+                
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div id="sideBar">
+
+        <ul class="list-group">
+            <li class="list-group-item"> <h4><span>LIFE</span>LINE</h4> <button class="close">&times;</button></li>
+        </ul>
+        <div id="accordion">
+            <div class="card">
+            <div class="card-header" id="heading1">
+                <div class="menu_item" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    Index 
+                <div class="expandSign float-right" >+</div>
+                </div>
+            </div>
+            <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordion">
+                <li class="list-group-item "><a href="index.html">index1</a></li>
+                <li class="list-group-item "><a href="index.html">index2</a></li>
+            </div>
+            </div>
+            <div class="card">
+            <div class="card-header" id="heading2">
+                <div class="menu_item">
+                    <a href="about_us.html">About Us</a> 
+                </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading3">
+                    <div class="menu_item" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        Services
+                    <div class="expandSign float-right">+</div>
+                    </div>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                    <li class="list-group-item "><a href="services.html">Services</a></li>
+                    <li class="list-group-item"><a href="events.html">Events</a></li>
+                    <li class="list-group-item"><a href="pricing.html">Pricing</a></li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading4">
+                    <div class="menu_item" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        Doctors 
+                    <div class="expandSign float-right">+</div>
+                    </div>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                    <li class="list-group-item "><a href="doctor_single.html">Doctor Single</a></li>
+                    <li class="list-group-item"><a href="our_doctors.html">Our  Doctors</a></li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading5">
+                    <div class="menu_item" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        Gallery 
+                    <div class="expandSign float-right">+</div>
+                    </div>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                    <li class="list-group-item"><a href="Gallery2.html">Gallery2</a></li>
+                    <li class="list-group-item"><a href="Gallery3.html">Gallery3</a></li>
+                    <li class="list-group-item"><a href="Gallery4.html">Gallery4</a></li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading6">
+                    <div class="menu_item" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        Blog
+                    <div class="expandSign float-right">+</div>
+                    </div>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+                    <li class="list-group-item"><a href="blog_category.html">Blog Category</a></li>
+                    <li class="list-group-item"><a href="blog_single.html">Blog Single</a></li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading7">
+                    <div class="menu_item" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        Contact
+                    <div class="expandSign float-right">+</div>
+                    </div>
+                </div>
+                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
+                    <li class="list-group-item"><a href="contact_us.html">Contact Us</a></li>
+                    <li class="list-group-item"><a href="appointment.html">Appointment</a></li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading8">
+                    <div class="menu_item">
+                        <a href="#">Log In / Sign Up</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <section id="about_layer">
+        <div class="layer d-flex align-items-center  ">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="about float-right">
+                            <h2>OUR SERVICES</h2>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active">Services</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="serviceSlide">
+        <div class="container">
+          <div class="row">
+              <div  class="col-12 " >
+                <div class="header">
+                  <h2>MOST POPULAR SERVICES</h2>
+                  <img  class="img-fluid" src="image/Icon_team.png" alt="">
+                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 offset-sm-2 offset-lg-0 offset-md-0">
+                <div id="cardSlide" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <div class="card-group d-flex align-items-center">
+                        <div class ="row">
+                            <div  class="col-xl-4 col-lg-4 col-md-12 col-sm-12 " >
+                              <div class="care">
+                                <h6 >HEART SURGERY</h6>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
+                                <span>Read More <i class="fas fa-long-arrow-alt-right"></i></span>
+                                <div class="label">
+                                </div>
+                                <div class="image">
+                                    <img  class="img-fluid" src="image/icon1.png" alt="">
+                                </div>
+                                <div class="bg">
+                                    <img class="img-fluid" src="image/icon_1.png" alt="">
+                                </div>
+                                
+                              </div>
+                            </div>
+                            <div  class="col-xl-4 col-lg-4 col-md-12 col-sm-12 " >
+                              <div class="care ">
+                                  <h6 >HEART SURGERY</h6>
+                                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
+                                  <span>Read More <i class="fas fa-long-arrow-alt-right"></i></span>
+                                  <div class="label">
+                                  </div>
+                                  <div class="image">
+                                      <img  class="img-fluid" src="image/icon2.png" alt="">
+                                  </div>
+                                  <div class="bg">
+                                      <img class="img-fluid" src="image/icon_2.png" alt="">
+                                  </div>
+                              </div>
+                            </div>
+                            <div  class="col-xl-4 col-lg-4 col-md-12 col-sm-12 " >
+                              <div class="care">
+                                  <h6 >HEART SURGERY</h6>
+                                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
+                                  <span>Read More <i class="fas fa-long-arrow-alt-right"></i></span>
+                                  <div class="label">
+                                  </div>
+                                  <div class="image">
+                                      <img  class="img-fluid" src="image/icon3.png" alt="">
+                                  </div>
+                                  <div class="bg">
+                                      <img class="img-fluid" src="image/icon_3.png" alt="">
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item ">
+                      <div class="card-group d-flex align-items-center">
+                          <div class="card d-none d-lg-block " style="width: 18rem;">
+                            <div class="label"></div>
+                              <div class="social d-flex align-items-center justify-content-center">
+                                  <span><i class="fab fa-facebook-f"></i></span>
+                                  <span><i class="fab fa-twitter"></i></span>
+                                  <span><i class="fab fa-linkedin-in"></i></span>
+                                  <span><i class="fab fa-youtube"></i></span>
+                              </div>
+                              <div class="icon">
+                                  <img  class="img-fluid" src="image/001-time.png" alt="">
+                              </div>
+                            <img class="card-img-top" src="image/team_1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card " style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card d-none d-md-block" style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card card  d-none d-lg-block" style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card-group d-flex align-items-center">
+                          <div class="card d-none d-lg-block" style="width: 18rem;">
+                            <div class="label"></div>
+                              <div class="social d-flex align-items-center justify-content-center">
+                                  <span><i class="fab fa-facebook-f"></i></span>
+                                  <span><i class="fab fa-twitter"></i></span>
+                                  <span><i class="fab fa-linkedin-in"></i></span>
+                                  <span><i class="fab fa-youtube"></i></span>
+                              </div>
+                              <div class="icon">
+                                  <img  class="img-fluid" src="image/001-time.png" alt="">
+                              </div>
+                            <img class="card-img-top" src="image/team_1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card d-none d-lg-block" style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                          <div class="card d-none d-md-block" style="width: 18rem;">
+                            <div class="label"></div>
+                            <div class="social d-flex align-items-center justify-content-center">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            <div class="icon">
+                                <img  class="img-fluid" src="image/001-time.png" alt="">
+                            </div>
+                            <img class="card-img-top" src="image/team_4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Dr. Johan Doe</h5>
+                              <p class="card-text">(Hepatologist)</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ol class="carousel-indicators">
+                      <li data-target="#cardSlide" data-slide-to="0" class="active"></li>
+                      <li data-target="#cardSlide" data-slide-to="1"></li>
+                      <li data-target="#cardSlide" data-slide-to="2"></li>
+                  </ol>
+                </div>
+    
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
+      </section>
+    
+
+
+
+
+
+<script src="script/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+

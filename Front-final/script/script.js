@@ -25,10 +25,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
             
         if ($(window).scrollTop()>$(stat).offset().top) {
-            var interval1= setInterval(cauntPatients,10);
-            var interval2= setInterval(doctorCount,10);
-            var interval3= setInterval(missionCount,10);
-            var interval4= setInterval(surgerieCount,10);
+            var interval1= setInterval(cauntPatients,20);
+            var interval2= setInterval(doctorCount,20);
+            var interval3= setInterval(missionCount,20);
+            var interval4= setInterval(surgerieCount,20);
             function cauntPatients (){
                 if (count1<=2340) {
                     count1+=10;

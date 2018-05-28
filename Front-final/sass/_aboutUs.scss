@@ -38,5 +38,125 @@ body{
 }
 #theBest{
     width: 100%;
-    height: 500px;
+    min-height: 500px;
+    margin-top: 30px;
+    .header{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .sideAccordion{
+        padding-bottom:30px;
+        img{
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+        .card{
+            margin-top: 10px;
+            .accordion_items{
+                
+                cursor: pointer;
+                border: none;
+                h5{
+                    font-size: 16px;
+                }
+               .arrowSign{
+                   color: white;
+                   font-weight: bold;
+                   text-align: center;
+                   border-radius: 100%;
+                   height: 28px;
+                   width: 28px;
+                   background: $mainColor;
+                   font-size: 20px;
+                   transition: all .4s linear;
+               }
+            }
+        }
+    }
+    .about_image {
+        padding-top: 10px;
+        p{
+            margin-top: 10px;
+        }
+    }
+}
+#services{
+    width: 100%;
+    min-height: 500px;
+    margin-top: 30px;
+    background-image: url(/image/top_service_img.jpg);
+    .layer{
+        width: 100%;
+        min-height: 500px;
+        background: rgba(255, 255, 255, 0.5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 80px;
+        .header{
+            text-align: center;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .care{
+            height: 220px;
+            border: 1px solid $mainColor;
+            overflow: hidden;
+            position: relative;
+            top: 30px;
+            padding-top: 15%;
+            text-align: center;
+            background: white;
+            margin-bottom: 20px;
+            .label{
+                background: $mainColor;
+                height: 200px;
+                width: 100px;
+                transform: rotate(45deg);
+                position: absolute;
+                left: -40px;
+                top: -80px;
+                padding-top: 15%;
+                margin-bottom: 10px;
+            }
+            .image{
+               // background: red;
+                height: 50px;
+                width: 50px;
+                padding: 0;
+                padding: 0 auto;
+                top: 10px;
+                left: 5px;
+                position: absolute;
+            }
+            .bg{
+                position: absolute;
+                top: 20px;
+                width: 100%;
+                height: 100%;
+            }
+            span{
+                cursor: pointer;
+                color: $mainColor;
+                font-size: 14px;
+                font-weight: bold;
+    
+            }
+            h6{
+                font-weight: bold;
+            }
+            
+            &:hover{
+                border: 1px solid $secondaryColor;
+                .label{
+                    background: $secondaryColor;
+                }
+                span{
+                    color: $secondaryColor; 
+                }
+            }
+    
+        }
+    }
+    
 }

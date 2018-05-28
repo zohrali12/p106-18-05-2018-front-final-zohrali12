@@ -1066,7 +1066,7 @@
   padding: 30px 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #header {
     display: none;
   }
@@ -1114,7 +1114,7 @@
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #mobile_nav {
     display: none;
   }
@@ -1157,7 +1157,126 @@ body {
 
 #theBest {
   width: 100%;
-  height: 500px;
+  min-height: 500px;
+  margin-top: 30px;
+}
+#theBest .header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#theBest .sideAccordion {
+  padding-bottom: 30px;
+}
+#theBest .sideAccordion img {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#theBest .sideAccordion .card {
+  margin-top: 10px;
+}
+#theBest .sideAccordion .card .accordion_items {
+  cursor: pointer;
+  border: none;
+}
+#theBest .sideAccordion .card .accordion_items h5 {
+  font-size: 16px;
+}
+#theBest .sideAccordion .card .accordion_items .arrowSign {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+  background: #2EC8A6;
+  font-size: 20px;
+  transition: all .4s linear;
+}
+#theBest .about_image {
+  padding-top: 10px;
+}
+#theBest .about_image p {
+  margin-top: 10px;
+}
+
+#services {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 30px;
+  background-image: url(/image/top_service_img.jpg);
+}
+#services .layer {
+  width: 100%;
+  min-height: 500px;
+  background: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+#services .layer .header {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#services .layer .care {
+  height: 220px;
+  border: 1px solid #2EC8A6;
+  overflow: hidden;
+  position: relative;
+  top: 30px;
+  padding-top: 15%;
+  text-align: center;
+  background: white;
+  margin-bottom: 20px;
+}
+#services .layer .care .label {
+  background: #2EC8A6;
+  height: 200px;
+  width: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -80px;
+  padding-top: 15%;
+  margin-bottom: 10px;
+}
+#services .layer .care .image {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  padding: 0 auto;
+  top: 10px;
+  left: 5px;
+  position: absolute;
+}
+#services .layer .care .bg {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+}
+#services .layer .care span {
+  cursor: pointer;
+  color: #2EC8A6;
+  font-size: 14px;
+  font-weight: bold;
+}
+#services .layer .care h6 {
+  font-weight: bold;
+}
+#services .layer .care:hover {
+  border: 1px solid #F4AB01;
+}
+#services .layer .care:hover .label {
+  background: #F4AB01;
+}
+#services .layer .care:hover span {
+  color: #F4AB01;
+}
+
+body {
+  margin: 0;
 }
 
 body {
